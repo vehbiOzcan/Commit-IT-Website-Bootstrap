@@ -27,7 +27,7 @@ hashActive();
 
 window.addEventListener("scroll", function(){
     var navEnd = nav.getBoundingClientRect().top;
-    console.log(navContainer.getBoundingClientRect())
+    
     if(navEnd < 0){
         navContainer.classList.add("position-fixed");
     } else {
