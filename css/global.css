@@ -1,0 +1,287 @@
+/* Fonts */
+
+.font-grotesk-300 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+}
+
+.font-grotesk-400 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+
+.font-grotesk-600 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+}
+
+.font-plex-600 {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.font-sansserif-400 {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.font-sansserif-600 {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.font-sansserif-800 {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.font-lsp-xs {
+    letter-spacing: 0.05rem;
+}
+
+.font-lsp-s {
+    letter-spacing: 0.1rem;
+}
+
+.font-lsp-m {
+    letter-spacing: 0.15rem;
+}
+
+.font-lsp-l {
+    letter-spacing: 0.2rem;
+}
+
+.font-lsp-xl {
+    letter-spacing: 0.25rem;
+}
+
+
+
+/* Backgrounds */
+
+.bg-pmr-pale {
+    background-color: #ebe5f4;
+}
+
+.bg-pmr-pale-soft {
+    background-color: #f0f0f8;
+}
+
+.bg-pmr-primary {
+    background-color: #605dba;
+}
+
+.bg-pmr-dark-grey {
+    background-color: #343f52;
+}
+
+.bg-pmr-white {
+    background-color: #ffffff;
+}
+
+.bg-pmr-white-border {
+    background-color: #ebedf3;
+}
+
+.bg-pmr-light {
+    background-color: #fcfcfd;
+}
+
+.bg-pmr-body {
+    background-color: #60697b;
+}
+
+.bg-pmr-secondary {
+    background-color: #aab0bc;
+}
+
+.bg-pmr-blue {
+    background-color: #3f78e0;
+}
+
+.bg-pmr-yellow {
+    background-color: #fcc032;
+}
+
+/* Text */
+
+.text-xxs {
+    font-size: 0.75rem;
+}
+
+.text-xs {
+    font-size: 1rem;
+}
+
+.text-s {
+    font-size: 1.25rem;
+}
+
+.text-m {
+    font-size: 1.75rem;
+}
+
+.text-ml {
+    font-size: 2.25rem;
+}
+
+.text-l {
+    font-size: 2.5rem;
+}
+
+.text-xl {
+    font-size: 2.75rem;
+}
+
+.text-xxl {
+    font-size: 3.25rem;
+}
+
+
+/* Colors */
+
+.pmr-pale {
+    color: #ebe5f4;
+}
+
+.pmr-pale-soft {
+    color: #f0f0f8;
+}
+
+.pmr-primary {
+    color: #605dba;
+}
+
+.pmr-dark-grey {
+    color: #343f52;
+}
+
+.pmr-white-border {
+    color: #ebedf3;
+}
+
+.pmr-light {
+    color: #fcfcfd;
+}
+
+.pmr-body {
+    color: #60697b;
+}
+
+.pmr-secondary {
+    color: #aab0bc;
+}
+
+.pmr-blue {
+    color: #3f78e0;
+}
+
+.pmr-yellow {
+    color: #fcc032;
+}
+
+.pmr-gradient-nav {
+    color: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.text-gradient {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(100deg, #605dba 20%, #3f78e0);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.link-gradient {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(100deg, #343f52 20%, #343f52);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.link-gradient:hover {
+    background-image: linear-gradient(100deg, #605dba 20%, #3f78e0);
+}
+
+.active {
+    background-image: linear-gradient(100deg, #605dba 20%, #3f78e0);
+    text-decoration: underline !important;
+}
+
+/* Button */
+
+.button-hover:hover {
+    position: relative;
+    box-shadow: 0px 10px 12px -3px rgba(52, 63, 82, 0.6);
+    -webkit-box-shadow: 0px 10px 12px -3px rgba(52, 63, 82, 0.6);
+    -moz-box-shadow: 0px 10px 12px -3px rgba(52, 63, 82, 0.6);
+    top: -5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button-hover-1:hover {
+    color:rgb(32, 41, 56) ;
+    background-color: #5d59ca;
+    transition: all 0.2s ease-in-out;
+}
+
+.button-hover-2:hover {
+    color:rgb(32, 41, 56) ;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Sabit konumda olan aside stilini güncelle */
+.fixed {
+    position: -webkit-sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+}
+
+/* Scroll Bar*/
+
+.scroll-bar {
+    overflow: auto;
+    max-height: 420px;
+}
+
+.scroll-bar::-webkit-scrollbar {
+    background: transparent;
+    width: 0.2rem;
+}
+
+.scroll-bar::-webkit-scrollbar-corner {
+    /*Köşe*/
+    background: transparent;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    /*Köşe*/
+    background: transparent;
+}
+
+.scroll-bar:hover::-webkit-scrollbar-thumb {
+    /*Köşe*/
+    background: linear-gradient(100deg, #605dba 20%, #3f78e0)
+}
+
+.scroll-bar-main {
+    overflow: auto;
+    max-height: 420px;
+}
+
+.scroll-bar-main::-webkit-scrollbar {
+    background: transparent;
+    width: 0.40rem;
+}
+
+.scroll-bar-main::-webkit-scrollbar-corner {
+    /*Köşe*/
+    background: transparent;
+}
+
+.scroll-bar-main::-webkit-scrollbar-thumb {
+    /*Köşe*/
+    background: linear-gradient(100deg, #605dba 20%, #3f78e0);
+    border-radius: 4px;
+}

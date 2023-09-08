@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#nav-container {
+    z-index: 1500;
+}
+
+#nav {
+    z-index: 1500;
+}
+
+#social-group a:hover {
+    opacity: 0.6;
+    position: relative;
+    top: -5px;
+    transition: all 0.2s ease-in-out;
+    /* Yukarı doğru kaydırma */
+}
+
+section {
+    scroll-margin-top: 93px;
+}
+
+/* #basic-addon1:hover {
+    color:rgba(52, 63, 82, 0.6) ;
+    transition: all 0.2s ease-in-out;
+} */
+
+.logo .logo-img {
+    width: 9rem;
+}
+
+
+.gradient-hover {
+    text-decoration: none;
+    /* Alt çizgiyi kaldırın (isteğe bağlı) */
+    background: linear-gradient(45deg, #ff6b6b, #6b66ff);
+    /* Arka plan gradienti */
+    -webkit-background-clip: text;
+    /* Metni gradient ile doldurmak için Webkit özelliği */
+    background-clip: text;
+    /* Metni gradient ile doldurmak */
+    color: transparent;
+    /* Metni saydam yapın */
+    transition: background 0.3s ease;
+    /* Geçiş efekti ekleyin */
+
+}
+
+.gradient-hover:hover {
+    background: none;
+    /* Hover durumunda arka plan gradientini kaldırın */
+    color: linear-gradient(45deg, #6b66ff, #ff6b6b);
+    /* Metin rengine gradient uygulayın */
+}
